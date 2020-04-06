@@ -1,4 +1,4 @@
-<script>
+
 	;(function(){
 		
 //		var toggleTab, toggleV1, toggleV2, toggleV3, toggleV4;
@@ -54,4 +54,3 @@
 //		init();
 
 	})(window);	
-</script>
