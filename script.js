@@ -6,7 +6,7 @@
 
 			// Inject the Div
 			setupFitWeird();
-
+ 
 			// Gather elements to update
 			widthPx = document.getElementById('fitweird-width-px');
 			heightPx = document.getElementById('fitweird-height-px');
