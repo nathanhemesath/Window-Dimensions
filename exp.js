@@ -1,19 +1,9 @@
 
 	;(function(){
 		
-//		var toggleTab, toggleV1, toggleV2, toggleV3, toggleV4;
-
 		var init = function(){
-
 			// Inject the Div
 			setupFitWeird();
-
-			// Gather elements to update
-//			toggleTab = document.getElementsByClassName("example");
-//			toggleV1 = document.getElementsByClassName("example");
-//			toggleV2 = document.getElementsByClassName("example");
-//			toggleV3 = document.getElementsByClassName("example");
-//			toggleV4 = document.getElementsByClassName("example");
 		}
 		
 		var setupFitWeird = function(){
@@ -34,23 +24,6 @@
 
 		};
 		
-		
-		var v = "1.3.2";
-
-		if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
-			var done = false;
-			var script = document.createElement("script");
-			script.src = "http://ajax.googleapis.com/ajax/libs/jquery/" + v + "/jquery.min.js";
-			script.onload = script.onreadystatechange = function(){
-				if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
-					done = true;
-					init();
-				}
-			};
-			document.getElementsByTagName("head")[0].appendChild(script);
-		} else {
-			init();
-		}
-//		init();
+		init();
 
 	})(window);	
