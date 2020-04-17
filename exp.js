@@ -17,6 +17,7 @@
 				$(this).addClass("active");
 				var expClass = $(this).attr('data-version');
 				$('body').removeClass("exp-202-v0 exp-202-v1 exp-202-v2 exp-202-v3 exp-202-v4").addClass("" + expClass);
+				$(document).trigger("exp202");
 			});
 		};
 		
